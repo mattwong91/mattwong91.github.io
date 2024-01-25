@@ -1,3 +1,29 @@
-.expanded {
+p{
+  margin-bottom: 0;
+}
+
+.header-font{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.f-600{
+  font-weight: 600;
+}
+
+.f-100{
+  font-weight: 100;
+}
+
+.bg-main-color{
+  background-color: #5CE1E6;
+}
+
+.fullscreen{
   height: 100vh;
+}
+
+.profile-img{
+  aspect-ratio: 1/1;
+  border-radius: 50%;
 }
