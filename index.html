@@ -12,7 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
@@ -20,73 +20,48 @@
 </head>
 
 <body>
-  <!-- SECTION -->
-  <header class="sticky-top bg-light">
-    <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
-      <div class="container-fluid justify-content-center">
-        <div class="col-2 d-flex justify-content-center">
-          <p class="header-font fs-3 f-600">Matthew</p>
-        </div>
-        <div class="col-8 d-flex justify-content-center header-font">
-          <ul class="navbar-nav">
+  <!-- SECTION NAVBAR-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header-font text-uppercase">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Matthew</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" role="button">
-                Home
-              </a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" role="button">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" role="button">
-                Services
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" role="button">
-                Resume
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" role="button">
-                Portfolio
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" role="button">
-                FAQ
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" role="button">
-                Contact
-              </a>
+              <a class="nav-link" href="#">Link</a>
             </li>
           </ul>
-        </div>
-        <div class="col-2 d-flex justify-content-center">
-          <i class="mdi mdi-facebook px-1 fs-3"></i>
-          <i class="mdi mdi-github px-1 fs-3"></i>
-          <i class="mdi mdi-instagram px-1 fs-3"></i>
+          <div class="d-flex fs-3">
+            <a class="mdi mdi-github" href="https://github.com/mattwong91"></a>
+            <a class="mdi mdi-linkedin" href="https://www.linkedin.com/in/mattwong91"></a>
+          </div>
         </div>
       </div>
     </nav>
   </header>
+    <!-- !SECTION NAVBAR-->
 
-  <!-- SECTION -->
+
+  <!-- SECTION HERO CONTENT-->
   <main>
-
+    
     <section id="router-view">
       <!-- primary viewport -->
     </section>
-
+    
   </main>
+  <!-- !SECTION HERO CONTENT-->
 
-  <!-- SECTION -->
-  <footer class="bg-dark text-light">
+  <!-- SECTION FOOTER-->
+  <footer>
   </footer>
+  <!-- !SECTION FOOTER-->
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

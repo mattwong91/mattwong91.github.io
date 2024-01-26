@@ -1,10 +1,31 @@
+:root{
+  --primary-color: #5ce1e6;
+}
+
 p{
   margin-bottom: 0;
 }
 
+.profile-img{
+  aspect-ratio: 1/1;
+  border: 15px solid white;
+  border-radius: 50%;
+}
+
+.bg-main{
+  background-color: var(--primary-color);
+}
+
+.fullscreen{
+  min-height: 100vh;
+}
+
+.fullscreen-with-header{
+  min-height: calc(100vh - 56px);
+}
+
 .header-font{
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
 }
 
 .f-600{
@@ -15,15 +36,6 @@ p{
   font-weight: 100;
 }
 
-.bg-main-color{
-  background-color: #5CE1E6;
-}
-
-.fullscreen{
-  height: 100vh;
-}
-
-.profile-img{
-  aspect-ratio: 1/1;
-  border-radius: 50%;
+.btn{
+  border-radius: 0;
 }
