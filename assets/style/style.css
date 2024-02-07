@@ -25,7 +25,7 @@
   font-weight: 600;
   word-wrap: normal;
   font-size: 3rem;
-  line-height: 50px;
+  line-height: 1;
 }
 
 .underline {
@@ -53,6 +53,14 @@
 
 /* SECTION SPECIFIC ITEMS */
 
+/* SECTION MEDIA QUERIES */
+@media (min-width: 768px) {
+  .position-text {
+    font-size: 5rem;
+  }
+}
+
+/* !SECTION MEDIA QUERIES */
 
 /* SECTION UTILITY CLASSES */
 .bg-main {
