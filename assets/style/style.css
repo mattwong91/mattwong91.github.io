@@ -2,6 +2,7 @@
   --primary-color: #5ce1e6;
   --light-bg: #f0f0f0;
   --dark-bg: #353535;
+  --dark-btn: #252525;
 }
 
 /* SECTION SPECIFIC ITEMS */
@@ -15,6 +16,10 @@
 
 .icons {
   font-size: 2.5rem;
+}
+
+.social-icon {
+  font-size: 1.75rem;
 }
 
 .skill-icons {
@@ -49,6 +54,18 @@
   height: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+.section-title {
+  font-size: 2.3rem;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .15);
+  border-radius: 0;
+  color: #000000;
 }
 
 /* SECTION SPECIFIC ITEMS */
@@ -101,6 +118,14 @@ p {
 
 .btn {
   border-radius: 0;
+}
+
+.btn-dark {
+  background-color: var(--dark-btn);
+}
+
+a {
+  color: var(--dark-btn);
 }
 
 /* !SECTION OVERRIDES */
