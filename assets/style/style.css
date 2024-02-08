@@ -133,6 +133,10 @@
   text-decoration: underline;
 }
 
+.hide-overflow {
+  overflow-x: hidden;
+}
+
 /* !SECTION UTILITY CLASSES */
 
 
