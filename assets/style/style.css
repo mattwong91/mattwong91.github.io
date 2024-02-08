@@ -53,8 +53,29 @@
   max-width: 100%;
   height: auto;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
+
+.portfolio-img:hover .portfolio-img-overlay {
+  opacity: 1;
+}
+
+.portfolio-img-overlay {
+  opacity: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .70);
+  backdrop-filter: blur(5px);
+  transition: opacity 300ms;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .section-title {
   font-size: 2.3rem;
