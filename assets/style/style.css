@@ -129,6 +129,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 /* !SECTION UTILITY CLASSES */
 
 
