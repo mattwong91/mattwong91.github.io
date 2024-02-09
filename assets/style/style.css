@@ -89,6 +89,17 @@
   color: #000000;
 }
 
+.carousel-item>img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.carousel-indicator {
+  height: 0.75rem !important;
+  width: 0.75rem !important;
+  border-radius: 50%;
+}
+
 /* SECTION SPECIFIC ITEMS */
 
 /* SECTION MEDIA QUERIES */
@@ -155,6 +166,10 @@ p {
 
 a {
   color: var(--dark-btn);
+}
+
+.row {
+  overflow-x: hidden;
 }
 
 /* !SECTION OVERRIDES */
