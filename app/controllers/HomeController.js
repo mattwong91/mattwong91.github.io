@@ -8,7 +8,8 @@ export class HomeController {
     AOS.init()
   }
 
-  testButton() {
-    Pop.success('The button Works 😎')
+  jumpTo(elementName) {
+    const element = document.getElementById(elementName)
+    element?.scrollIntoView({ behavior: 'smooth' })
   }
 }

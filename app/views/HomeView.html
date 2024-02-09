@@ -10,9 +10,10 @@
       <p class="fw-normal fs-5">based in Eagle, ID</p>
       <div class="mt-5 d-flex flex-column flex-md-row align-items-center">
         <div class="pe-md-5">
-          <button class="btn btn-dark px-4 py-2">View My Works</button>
+          <button onclick="app.HomeController.jumpTo('portfolio')" class="btn btn-dark px-4 py-2">View My Works</button>
         </div>
-        <a class="py-3" href="">Contact Me <i class="mdi mdi-arrow-down-bold-circle-outline"></i></a>
+        <a onclick="app.HomeController.jumpTo('contact')" class="py-3" role="button">Contact Me <i
+            class="mdi mdi-arrow-down-bold-circle-outline"></i></a>
       </div>
     </div>
 
@@ -36,8 +37,8 @@
   </section>
   <!-- !SECTION ABOUT ME -->
 
-  <!-- SECTION SERVICES -->
-  <section id="services" class="row justify-content-center text-center light-bg py-5">
+  <!-- SECTION INTERESTS -->
+  <section id="interests" class="row justify-content-center text-center light-bg py-5">
     <div class="mt-5 mb-3 col-auto" data-aos="fade-up">
       <p class="bg-main px-2">What I Do?</p>
     </div>
@@ -67,7 +68,7 @@
         standard dummy text.</p>
     </div>
   </section>
-  <!-- !SECTION SERVICES -->
+  <!-- !SECTION INTERESTS -->
 
   <!-- SECTION RESUME -->
   <section id="resume" class="row justify-content-center text-center bg-white py-5">
@@ -262,7 +263,7 @@
   <!-- !SECTION RESUME -->
 
   <!-- SECTION PORTFOLIO -->
-  <section id="portfolio" class="row justify-content-center text-center dark-bg text-white">
+  <section id="portfolio" class="row justify-content-center text-center dark-bg text-white pt-5">
     <div class="mt-5 mb-3 col-auto" data-aos="fade-up">
       <p class="bg-main px-2 text-dark">Portfolio</p>
     </div>
