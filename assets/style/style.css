@@ -7,6 +7,10 @@
 
 /* SECTION SPECIFIC ITEMS */
 
+.brand-logo{
+  height: 43px;
+}
+
 .profile-img {
   aspect-ratio: 1/1;
   border: 15px solid white;
