@@ -1,21 +1,21 @@
 import { AppState } from "../AppState.js"
 import { Project } from "../models/Project.js"
 
-class ProjectsService{
-  constructor(){
+class ProjectsService {
+  constructor() {
   }
-  init(projects){
+  init(projects) {
     projects.forEach(project => this.addProject(project))
   }
-  addProject(projectData){
+  addProject(projectData) {
     const newProject = new Project(projectData)
     AppState.projects.push(newProject)
   }
 
-  setActiveProject(projectName){
+  setActiveProject(projectName) {
     const projects = AppState.projects
     const foundProject = projects.find(project => project.name == projectName)
-    AppState.activeProject = foundProject
+    AppState.activeProject = new Project(foundProject)
   }
 }
 
